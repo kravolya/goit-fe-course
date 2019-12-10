@@ -1,0 +1,100 @@
+.html {
+    box-sizing: border-box;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: Yuppy SC Regular;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.conteyner {
+    width: 925px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.ALL{
+    margin-bottom: 130px;
+    margin: 0 auto;
+}
+
+.site-navigation {
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    margin-bottom: 100px;
+    margin-top: 75px;
+    margin-left: 100px;
+
+}
+
+.rrr {
+    display: inline-block;
+
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 110px;
+}
+
+
+.rows-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.rows-list-item {
+    display: inline-block;
+   margin: 0 auto;
+    width: 400px;
+    margin-right: 60px;
+
+}
+.rows-theme{
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-top: 25px;
+}
+.rows-sentence{
+    font-size: 30px;
+    color: #626262;
+    margin-top: 28px;
+}
+.text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+    font: PlayfairDisplay ;
+    margin-bottom: 135px;
+
+}
+.text:ntn-last-child(-n+2){
+    margin-bottom: 0;
+}
+.text:not(:nth-child(2n)){
+    margin-right: 0px;
+}
+.button{
+    width: 164px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #626262;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #626262;
+    font-family: Yuppy SC Regular;
+
+}
