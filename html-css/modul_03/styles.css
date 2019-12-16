@@ -47,8 +47,11 @@
     display: inline-block;
 
 }
-
-.site-navigation-item:hover {
+.site-navigation-item a{
+    text-decoration: none;
+    color: #626262;
+}
+.site-navigation-item a:hover {
     color: #03a9f4;
 }
 
