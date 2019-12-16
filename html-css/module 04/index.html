@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homework04</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -15,19 +16,20 @@
 
     <div class="container">
         <h1 class="visually-hidden"></h1>
-        <header class="main-header">
-            <a href="#" class="site-logo"><img src="./img/mart.png" alt="logo" height="21px"
-                    width="78px"></a>
+        <header>
+            <nav class="header-navigation clearfix">
+            <a href="#" class="site-logo">mart</a>
             <ul class="site-navigation clearfix">
-                <li class="site-navigation-item">home</li>
-                <li class="site-navigation-item">about us</li>
-                <li class="site-navigation-item">page</li>
-                <li class="site-navigation-item">shop</li>
-                <li class="site-navigation-item">blog</li>
-                <li class="site-navigation-item">contact us</li>
+                <li class="site-navigation-item"><a href="#">home</a></li>
+                <li class="site-navigation-item"><a href="#">about us</a></li>
+                <li class="site-navigation-item"><a href="#">page</a></li>
+                <li class="site-navigation-item"><a href="#">shop</a></li>
+                <li class="site-navigation-item"><a href="#">blog</a></li>
+                <li class="site-navigation-item"><a href="#">contact us</a></li>
             </ul>
-
+        </nav>
         </header>
+    
         <main>
 
             <section class="products clearfix">
@@ -37,7 +39,7 @@
                         <a href="#"></a>
                         <img src="./img/product1.jpg" alt="some img" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Blue Tshirt</p>
+                            <h3 class="item-name">Blue Tshirt</h3>
                             <p class="item-price">$26</p>
                         </div>
 
@@ -47,7 +49,7 @@
                         <a href="#"></a>
                         <img src="./img/product2.jpg" alt="some img" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Woman shirt</p>
+                            <h3 class="item-name">Woman shirt</h3>
                             <p class="item-price">$31</p>
                         </div>
                     </li>
@@ -55,7 +57,7 @@
                         <a href="#"></a>
                         <img src="./img/product3.jpg" alt="some img" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Yellow Tshirt</p>
+                            <h3 class="item-name">Yellow Tshirt</h3>
                             <p class="item-price">$21</p>
                         </div>
                     </li>
@@ -63,7 +65,7 @@
                         <a href="#"></a>
                         <img src="./img/product4.jpg" alt="some img" width="253px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Cool lingerie</p>
+                            <h3 class="item-name">Cool lingerie</h3>
                             <p class="item-price">$56</p>
                         </div>
                     </li>
@@ -71,7 +73,7 @@
                         <a href="#"></a>
                         <img src="./img/product5.jpg" alt="some img" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Blue Tshirt</p>
+                            <h3 class="item-name">Blue Tshirt</h3>
                             <p class="item-price">$26</p>
                         </div>
                     </li>
@@ -79,7 +81,7 @@
                         <a href="#"></a>
                         <img src="./img/product6.jpg" alt="some img6" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Woman shirt</p>
+                            <h3 class="item-name">Woman shirt</h3>
                             <p class="item-price">$31</p>
                         </div>
                     </li>
@@ -87,7 +89,7 @@
                         <a href="#"></a>
                         <img src="./img/product7.jpg" alt="some img7" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Yellow Tshirt</p>
+                            <h3 class="item-name">Yellow Tshirt</h3>
                             <p class="item-price">$21</p>
                         </div>
                     </li>
@@ -95,7 +97,7 @@
                         <a href="#"></a>
                         <img src="./img/product8.jpg" alt="some img8" width="255px" height="282px">
                         <div class="wrapper clearfix">
-                            <p class="item-name">Cool lingerie</p>
+                            <h3 class="item-name">Cool lingerie</h3>
                             <p class="item-price">$56</p>
                         </div>
                     </li>
@@ -116,7 +118,7 @@
                                 nibh
                                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                                 Nam nec tellus a odio tincidunt auctor a ornare </p>
-                            <button class="button">Read more</button>
+                                <a href="#"class="button">Read more</a>
                         </div>
                     </li>
                     <li class="list-news-item">
@@ -128,7 +130,7 @@
                                 nibh
                                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                                 Nam nec tellus a odio tincidunt auctor a ornare </p>
-                            <button class="button">Read more</button>
+                                <a href="#"class="button">Read more</a>
                         </div>
                     </li>
                     <li class="list-news-item">
@@ -140,7 +142,8 @@
                                 nibh
                                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                                 Nam nec tellus a odio tincidunt auctor a ornare </p>
-                            <button class="button">Read more</button>
+                            <a href="#"class="button">Read more</a>
+                            
                         </div>
                     </li>
 
