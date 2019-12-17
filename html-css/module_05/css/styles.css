@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555252;
+    
+}
+.black {
+    position: relative;
+    background-color: black;
+    width: 420px;
+    height: 420px;
+}
+    
+    
+
+.red {
+    
+   position: absolute;
+   
+right: 100px;
+   
+    width: 220px;
+    height: 220px;
+    background: olive;
+    opacity: 0.46;
+    
+}
