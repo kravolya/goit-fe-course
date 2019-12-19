@@ -382,15 +382,15 @@ img {
     width: 164px;
     height: 50px;
     border: 2px solid white;
-    background-color: transparent;
+    background-color: #323232;
     background-image: url(./img/basket.png);
     background-repeat: no-repeat;
     background-position: 10px 10px;
 }
 
 .icon-4:hover {
-    background-color: #323232;
-    border: 2px solid white;
+    background-color: #1abc9c;
+    border: none;
 }
 
 .add-to-card {
