@@ -124,13 +124,12 @@ img {
 }
 
 .banner {
-    /* width: 1600px; */
+ 
     margin: 0 auto;
 }
 
 .slider-btns {
     position: absolute;
-    width: 1110px;
     top: 240px;
     left: 50%;
     transform: translateX(-50%);
@@ -165,13 +164,16 @@ img {
     background-position: center;
 }
 
-.main-title-1 {
-    font-size: 60px;
+.title-wrapper {
+    width: 777px;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
-    top: 222px;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
+}
+.main-title-1 {
+    
+    font-size: 64px;    
     line-height: 82px;
     font-weight: 900;
     letter-spacing: -2px;
@@ -182,9 +184,9 @@ img {
 }
 
 .main-title-1-options {
-    position: absolute;
+   
     top: 0;
-    left: 430px;
+    left: 390px;
     top: 305px;
 
     font-size: 24px;
@@ -429,14 +431,15 @@ img {
     line-height: 28px;
     color: white;
     background-color: #323232;
-    width: 1600px;
-    height: 90px;
+   
+    
     margin: 0 auto;
     padding: 0;
     display: block;
     padding-top: 100px;
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 35px;
 
 }
 
