@@ -193,7 +193,9 @@ img {
     line-height: 54px;
     color: white;
 }
-
+.products {
+    background-color:#e9f0fd; ;
+}
 .products-container {
     width: 1110px;
     margin: 0 auto;
@@ -273,7 +275,7 @@ img {
 
 .products {
     background-color: #e9f0fd;
-    width: 1600px;
+    
     margin: 0 auto;
 
 }
@@ -301,21 +303,10 @@ img {
 
 .overlay-wrapper {
     position: relative;
+
 }
 
-/* .Rectangle_50_copy {
-    border-width: 10px;
-    border-color: rgba(255, 255, 255, 0.55);
-    border-style: solid;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.549;
-    position: absolute;
-    left: 530px;
-    top: 946px;
-    width: 235px;
-    height: 261px;
-    z-index: 25;
-  } */
+
   
 
 
