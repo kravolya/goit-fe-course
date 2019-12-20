@@ -121,7 +121,7 @@ img {
     position: relative;
 }
 
-.slider::after{
+.slider::before{
     content: "";
     position: absolute;
     width: 100%;
