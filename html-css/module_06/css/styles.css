@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat','Roboto', sans-serif, 'Kaushan Script', cursive, ;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555252;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

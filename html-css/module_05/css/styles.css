@@ -34,9 +34,8 @@ img {
 
 .site-logo {
     float: left;
-    font-size: 0;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 100;
     text-transform: uppercase;
     text-decoration: none;
     color: #555252;
@@ -120,9 +119,17 @@ img {
 
 .slider {
     position: relative;
-
 }
 
+.slider::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 2, 0.55);
+    top: 0;
+    left: 0;
+}
 .banner {
  
     margin: 0 auto;
@@ -130,9 +137,9 @@ img {
 
 .slider-btns {
     position: absolute;
-    top: 240px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
 
 
 }
@@ -151,6 +158,17 @@ img {
     background-position: center;
 
 }
+/* .Rectangle_2 {
+    background-color: rgb(0, 0, 2);
+    opacity: 0.522;
+    position: absolute;
+    left: -112px;
+    top: 84px;
+    width: 1807px;
+    height: 607px;
+    z-index: 72;
+  } */
+  
 
 .slider-btn-next {
     background-color: #1abc9c;
@@ -194,12 +212,12 @@ img {
     color: white;
 }
 .products {
-    background-color:#e9f0fd; ;
+    background-color:#e9f0fd; 
 }
-.products-container {
-    width: 1110px;
+.products container {
+  
     margin: 0 auto;
-    padding-bottom: 100px;
+   
 }
 
 .main-title-2 {
@@ -266,9 +284,7 @@ img {
 }
 
 .wrapper {
-    background-color: black;
-    height: 40px;
-    width: 255px;
+    background-color: #323232;
     margin: 0;
     padding: 0;
 }
@@ -282,6 +298,7 @@ img {
 
 .about-list {
     list-style: none;
+    padding-bottom: 100px;
 }
 
 .overlay-list {
@@ -307,7 +324,7 @@ img {
 }
 
 
-  
+
 
 
 .overlay {
@@ -316,6 +333,7 @@ img {
     border-width: 10px;
     border-color: rgba(255, 255, 255, 0.55);
     border-style: solid;
+    background-clip: padding-box;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -336,59 +354,41 @@ img {
 .about-list-item:not(:last-child) {
     margin-right: 30px;
 }
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
 
+.icon:hover {
+    background-color: #1abc9c;
+    border: none;
+}
 
 .icon-1 {
-    display: inblock;
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    background-color: transparent;
     background-image: url(./img/heart.png);
-    background-repeat: no-repeat;
-    background-position: center;
     float: left;
     margin-right: 7px;
     margin-bottom: 7px;
 }
 
-.icon-1:hover {
-    background-color: #1abc9c;
-    border: none;
-}
+
 
 .icon-2 {
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    background-color: transparent;
     background-image: url(./img/arrows.png);
-    background-repeat: no-repeat;
-    background-position: center;
     float: left;
     margin-right: 7px;
     margin-bottom: 7px;
-}
-
-.icon-2:hover {
-    background-color: #1abc9c;
-    border: none;
 }
 
 .icon-3 {
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    background-color: transparent;
     background-image: url(./img/clock.png);
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-}
-
-.icon-3:hover {
-    background-color: #1abc9c;
-    border: none;
 }
 
 .icon-4 {
@@ -397,14 +397,9 @@ img {
     border: 2px solid white;
     background-color: #323232;
     background-image: url(./img/basket.png);
-    background-repeat: no-repeat;
     background-position: 10px 10px;
 }
 
-.icon-4:hover {
-    background-color: #1abc9c;
-    border: none;
-}
 
 .add-to-card {
     font-size: 14px;
