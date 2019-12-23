@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat'sans-serif, 'Roboto'sans-serif, 'Kaushan Script'cursive, ;
+    font-family: 'Montserrat'sans-serif, 'Roboto'sans-serif, 'Kaushan Script'cursive;
     font-size: 14px;
     line-height: 1.5;
     color: #555252;
@@ -42,7 +42,7 @@ li {
     font-size: 30px;
     font-family: 'Montserrat';
     font-weight: 700;
-    color: #1abc9c;
+    color: rgb(149, 225, 211);
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -75,7 +75,7 @@ li {
 .item-link {
 
     display: block;
-    color: #1abc9c;
+    color: rgb(149, 225, 211);
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 14px;
@@ -278,7 +278,7 @@ li {
 .team-member-occupation {
     font-family: 'Roboto', italic, sans-serif;
     font-size: 14px;
-    font-weight: 400i;
+    font-weight: 400;   
     text-align: center;
     margin-top: 5px;
     font-style: italic;
@@ -383,7 +383,7 @@ li {
 }
 
 .email-input {
-    font-family: 'Montserrat'sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     padding-left: 10px;
     height: 40px;
