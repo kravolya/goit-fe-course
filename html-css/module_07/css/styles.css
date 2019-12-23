@@ -93,6 +93,26 @@
         url('../fonts/roboto-v20-latin-700.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* im-fell-double-pica-regular - latin */
+@font-face {
+    font-family: 'IM Fell Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('IM FELL Double Pica Roman '), local('IM_FELL_Double_Pica_Roman'),
+         url('../fonts/im-fell-double-pica-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/im-fell-double-pica-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* im-fell-double-pica-italic - latin */
+  @font-face {
+    font-family: 'IM Fell Double Pica';
+    font-style: italic;
+    font-weight: 400;
+    src: local('IM FELL Double Pica Italic'), local('IM_FELL_Double_Pica_Italic'),
+         url('../fonts/im-fell-double-pica-v9-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/im-fell-double-pica-v9-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
 
 html {
     box-sizing: border-box;
@@ -135,7 +155,7 @@ li {
 }
 
 .site-logo {
-    font-family: 'Roboto';
+    font-family: 'IM Fell Double Pica';
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
