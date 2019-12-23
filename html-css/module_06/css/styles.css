@@ -25,6 +25,8 @@ img {
     height: auto;
     padding: 0;
     margin: 0;
+    transition: 200ms linear;
+    transform: translate(-10px, -10px);
 }
 
 li {
@@ -247,7 +249,7 @@ li {
 .title-text {
     display: block;
     text-align: center;
-    width: 980px;
+    max-width: 980px;
     font-family: 'Roboto';
     color: #999999;
     font-size: 14px;
@@ -278,7 +280,7 @@ li {
 .team-member-occupation {
     font-family: 'Roboto', italic, sans-serif;
     font-size: 14px;
-    font-weight: 400;   
+    font-weight: 400;
     text-align: center;
     margin-top: 5px;
     font-style: italic;
@@ -297,7 +299,7 @@ li {
 
 .overlay {
     width: 100%;
-    height: 470px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -382,9 +384,14 @@ li {
     text-decoration: none;
 }
 
+.email-form {
+    display: flex;
+}
+
 .email-input {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
     font-style: italic;
+    font-size: 14px;
     padding-left: 10px;
     height: 40px;
     width: 230px;
