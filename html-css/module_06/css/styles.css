@@ -26,7 +26,7 @@ img {
     padding: 0;
     margin: 0;
     transition: 200ms linear;
-    transform: translate(-10px, -10px);
+   
 }
 
 li {
@@ -117,6 +117,7 @@ li {
 
 .box-title-1 {
     padding-top: 116px;
+    padding-bottom: 94px;
 
 }
 
@@ -151,7 +152,9 @@ li {
     margin: 36px auto;
     margin-bottom: 60px;
 }
-
+.our-services {
+   
+}
 .our-services-list {
     display: flex;
     flex-wrap: wrap;
@@ -253,11 +256,11 @@ li {
     font-family: 'Roboto';
     color: #999999;
     font-size: 14px;
-
+   
 }
 
 .our-team {
-    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .team-list-item {
@@ -274,6 +277,8 @@ li {
     font-weight: 500;
     margin-top: 30px;
     text-align: center;
+    text-transform: uppercase;
+   
 
 }
 
@@ -296,6 +301,9 @@ li {
 
 
 }
+.memberoverlay {
+    position: relative;
+}
 
 .overlay {
     width: 100%;
@@ -317,6 +325,10 @@ li {
 .team-list {
     display: flex;
     justify-content: space-between;
+}
+.team-list-item:hover .img {
+    transform: translate(-10px, -10px);
+    
 }
 
 .team-list-item:hover .overlay {
@@ -367,11 +379,20 @@ li {
 }
 
 .footer {
-    padding-top: 80px;
-    margin-bottom: 20px;
+    
+   padding-bottom: 20px;
+  
+  
+}
+.footer-wrapper {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(229, 229, 229);
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .footer-text {
