@@ -1,0 +1,60 @@
+.welcome {
+    padding-top: 200px;
+    background-image: linear-gradient(
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)), url(../images/bg/eagle.jpg); 
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+}
+
+  
+.welcome-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 820px;
+    margin: 0 auto;
+}
+.welcome-text {
+    width: 100%;
+    font-size: 72px;
+    font-family: $cursive-font;
+    font-weight: 400;   
+    text-align: center;
+    color: $main-color;
+}
+.welcome-lozung {
+    margin-top: 52px;
+    font-family: $main-font;
+    line-height: 140px;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;   
+    text-align: center;
+    color: $main-color;
+    letter-spacing: -1px;
+}
+.welcome-btn {
+    height: 40px;
+    width: 160px;
+    margin-top: 110px;
+    font-weight: 400;   
+    text-align: center;
+    color: $main-color;
+    background-color: transparent;   
+    font-weight: 700;
+    font-family: $main-font;
+    text-transform: uppercase;  
+    border: 2px solid $main-color;
+}
+.box-title-1 {
+    padding-top: 47px;
+  
+}
+.box-title {
+    padding-top: 47px;
+   
+}

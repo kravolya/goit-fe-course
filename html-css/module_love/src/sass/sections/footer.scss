@@ -1,0 +1,54 @@
+.footer {
+    
+    padding-bottom: 20px;  
+   
+ }
+ .footer-wrapper {
+     border-top: 1px;
+     border-top-style: solid;
+     border-top-color: rgb(229, 229, 229);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+     padding-top: 10px;
+ }
+ 
+ .footer-text {
+     padding-top: 20px;
+     font-family: $main-font;
+ }
+ 
+ .footer-text-color {
+     color: $secondory-hover-color;
+     text-decoration: none;
+ }
+ 
+ .email-form {
+     display: flex;
+ }
+ 
+ .email-input {
+     font-family:$text-font;
+     font-style: italic;
+     font-size: 14px;
+     padding-left: 10px;
+     height: 40px;
+     width: 230px;
+     border: 1px solid #e7e7e7;
+     border-right: none;
+ }
+ 
+ .content-btn {
+     font-family: $main-font;
+     font-size: 14px;
+     font-weight: 700;
+     height: 40px;
+     width: 150px;
+     color: $main-color;
+     background-color: $bg-color;
+     border: none;
+     text-transform: uppercase;
+     cursor: pointer;
+ }
+
